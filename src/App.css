@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+  
+  margin: 0;
+  display: flex;
+  place-items: center;
+  
+  min-height: 100vh;
+}
+
+h1, h2, h3, p{
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  max-width: 317px;
+  margin: 0 auto;
+  border-radius: 11px;
+  text-align: center;
+  background: #F5F5F5;
+  font-family: "Inter", sans-serif;
+  color: black;
+}
+
+.main-img{
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+
+h1{
+  font-size: 1.5625em;
+  margin-bottom: 6px;
+}
+
+h2{
+  font-size: 0.75em;
+  color: #F47D27;
+  font-weight: 400;
+  margin-bottom: 8.8px;
+}
+
+.info-container{
+  font-size: 16px;
+}
+
+.info-container p{
+  font-size: 0.625em;
+  margin-bottom: 17px;
+}
+
+
+.name-container {
+  padding: 0 35px;
+}
+
+
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  width: 100%;
+  padding: 0.6428571428571429em 0;
+  font-size: 0.875em;
+  font-weight: 500;
+  font-family: inherit;
+  border: 1px solid #D1D5DB;
+  box-shadow: 0px 1px 2px 0px #0000000D;
+  background-color: #fff;
+  color: black;
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+
+.description-container{
+  text-align: start;
+  padding: 0 35px;
+  margin-bottom: 1.6875em;
+}
+
+.description-title{
+  color: #2B283A;
+  font-size: 1em;
+  font-weight: 700;
+  margin-bottom: 0.3125em;
+  line-height: 24px;
+}
+
+.description-text{
+  font-size: 0.64em;
+  line-height: 15.36px;
+  font-family: Inter;
+  color: #4A4E74;
+
+
+}
+
+
+footer{
+  background: #D5D4D8;
+  padding: 1.21875em 3.03125em;
+  border-radius: 0 0 10px 10px ;
+}
+
+
+footer{
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+
+.social-icon{
+  width: 25px;
+  cursor: pointer;
+
+}
+
+
+a.blue-link:hover {
+  filter: drop-shadow(0 0 0.5em #646cffaa);
+}
+
+a.black-link:hover {
+  filter: drop-shadow(0 0 0.5em #000000aa);
+}
+a.red-link:hover {
+  filter: drop-shadow(0 0 0.5em #ff0000aa);
+}
+
+
+
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* @media (min-width: 900px) {
+  .info-container{
+    display: flex;
+  }
+
+  .main-img{
+    border-radius: 10px 10px 0 0;
+    width: 50%;
+    margin-bottom: 20px;
+
+  }
+
+  #root{
+    max-width: unset;
+  }
+} */
+
