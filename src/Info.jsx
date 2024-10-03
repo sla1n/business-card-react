@@ -1,13 +1,13 @@
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
-
+import profilePic from './assets/profile-pic.jpg'
 
 
 export default function Info(){
 	return (
 		<div className='info-container'>
-			<img src="src\assets\profile-pic.jpg" className="main-img" alt="" width="317px"/>
+			<img src={profilePic} className="main-img" alt="" width="317px"/>
 			<div className='name-container'>
 				<h1 className='name-main'>Vitalii Pantsyr</h1>
 				<h2>Frontend Developer</h2>
